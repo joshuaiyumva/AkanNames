@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <p><h1>Akan Name Generetor</h1>
+            Here below you are requested to enter your birth Date and Gender<br>
+            Then the application will generate your Akan name accordingly...</p>
+            <fieldset id="contain">
+                <legend>
+                        <blink> Fill all the required here to sign up </blink>
+                </legend>
+                <div class="aa">
+                    <form method="akan.html" id="myForm" onsubmit="return gender_check()">
+                        date of birth:<input type="date" name="birthDate" id="DoB" /><br /><br />
+                        <fieldset id="gender">Gender:<br>
+                        Male:<input type="radio"name="gender" id="gender_male" value="male" /><br />
+                        Female:<input type="radio"name="gender" id="gender_female" value="female" /><br><br>
+                        </fieldset>
+                        <input type="submit" value="Check my Akan name" /><br><br>
+                        <input type="reset" name="Clear" value="Clear" /><br>
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+    </body>
+</html>
