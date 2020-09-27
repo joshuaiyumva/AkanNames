@@ -11,8 +11,14 @@
             <p>
             <h2><strong>Akan Name Generetor</strong></h2>
             Here below you are requested to enter your birth Date and Gender<br>
-            Then the application will generate your Akan name accordingly...</p>
+            Then the application will generate your Akan name accordingly.</p>
+            <p><b>Akan Names:</b>Akan names are derived from Ghanian culture. Frequent in Ghana, <br>
+                where children are given their first name as a <strong style="background-color:#ffcc99;color:#000;"><em>'day name'</em></strong> which
+                corresponds to the day in the week they were born in.
+                </p>
             </div>
+            <p class="clear"></p>
+            <p><strong style="font-weight: 300;"> Choose your Gender</strong></p>
             <button type="submit" value="Male" id="maleBtn" name="genderMale" onclick="document.getElementById('maleForm').style.display='block'" style="width:auto;">
             Male</button>
             <button type="submit" value="Female" id="femaleBtn" name="genderFemale" onclick="document.getElementById('femaleForm').style.display='block'" style="width:auto;">
@@ -27,14 +33,14 @@
                 <div class="container">
                     <label for="BirthdayDate"><b>Enter your Birthday Date</b></label>
                     <input type="date" id="bDate" name="bDate" value="" required>
-                    <button type="submit" onclick="is_date().style.display='block'">
-                        Check your Akan Name
-                    </button>
-                    <p> your Akan Nickname is: <label id="isAkan"></label></p>
+                    <button type="submit" onclick="is_date()">
+                        Check your Akan name
+                    </button><br>
+                    <p>your Akan Nickname is: <label id="isAkan"></label></p>
                 </div>
                 <div class="container" style="background-color:#f1f1f1">
                     <button type="button" onclick="document.getElementById('maleForm').style.display='none'"
-                        class="cancelbtn">Cancel</button>
+                      class="cancelbtn">Cancel</button>
                 </div>
             </form>
         </div>

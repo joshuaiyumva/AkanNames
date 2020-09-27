@@ -15,7 +15,7 @@ input[type=date]{
      padding: 14px 20px;
      margin-top:100px;
      margin-left: 100px;
-     margin-right: 200px;
+     margin-right: 50px;
      border: none;
      width: 100%;
      width:auto;
@@ -27,7 +27,7 @@ button {
     padding: 14px 20px;
     margin-top: 200px;
     margin-left: 300px;
-    margin-right: 200px;
+    margin-right: 50px;
     border: none;
     width: 100%;
 }
@@ -63,24 +63,11 @@ button {
      top: 0;
      width: 100%;
      height: 100%;
-     overflow: auto;
-     padding-top: 60px;
- }
- .modal {
-     display: none;
-     position: fixed;
-     z-index: 1;
-     left: 0;
-     top: 0;
-     width: 100%;
-     height: 100%;
-     overflow: auto;
      background-color: rgb(0, 0, 0);
      background-color: rgba(0, 0, 0, 0.4);
      padding-top: 60px;
  }
  .modal-content {
-     background-color:rgba(3, 87, 136, 0.5);
      margin: 5% auto 15% auto;
      border: 1px solid #888;
      width: 55%;
@@ -127,4 +114,7 @@ button {
      .cancelbtn {
          width: 100%;
      }
+ }
+ .clear{
+     clear: both;
  }

@@ -14,13 +14,17 @@ function is_date(){
     var cc = ((yyyy-1)/100+1);
     var birthCalc =(cc / 4 - 2 * cc - 1 + 5 * yyyy / 4 + 26 * (mm + 1) / 10 +dd) % 7;
 
-    var gender1 = document.querySelector('input[name="genderMale"]:submit').value;
-    var gender2 = document.querySelector('input[name ="genderFemale"]:submit').value;
+    var gender1 = document.querySelector('input[name="genderMale"]:submit');
+    var gender2 = document.querySelector('input[name ="genderFemale"]:submit');
+    var result1
+    var result2
     if(gender1 == "Male"){
-        document.write.innerHTML("isAkan") = akanMale[Math.round(birthCalc)];
+        result1=(document.write.innerHTML("isAkan") = akanMale[Math.round(birthCalc)]);
+        alert("Your akan Name is: "+result1);
     }
     else if(gender2 == "Female"){
-        document.write.innerHTML("isAkan") = akanFemale[Math.round(birthCalc)];
+        result2=(document.write.innerHTML("isAkan") = akanFemale[Math.round(birthCalc)]);
+        alert("Your akan Name is: "+result2);
     }
     else{
         alert("Invalid");
