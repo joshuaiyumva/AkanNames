@@ -32,6 +32,7 @@
 
 ## Bug Report...
 #### the Akan name generator javaScript functions are not working well.
+#### i.e they are not giving the expected output.
 
 ## Technology used...
 #### The technology used for the creation and completion of the website are the following:
