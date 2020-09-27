@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Akan Name Generetor</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    </head>
+    <body>
+        <div class="titleContainer">
+            <p>
+            <h2><strong>Akan Name Generetor</strong></h2>
+            Here below you are requested to enter your birth Date and Gender<br>
+            Then the application will generate your Akan name accordingly...</p>
+        <fieldset id="contain">
+            <button id="maleBtn" onclick="document.getElementById('maleForm').style.display='block'" style="width:auto;">
+            Male</button>
+        <button id="femaleBtn" onclick="document.getElementById('femaleForm').style.display='block'" style="width:auto;">
+            Female</button>
+            </fieldset>
+        </div>
+        <div id="maleForm" class="male">
+            <form class="modal-content animate" method="post">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('maleForm').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <img src="images/male.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="BirthDayDate"><b>BirthDay DAte</b></label>
+                    <input type="date" placeholder="" name="bDAte" required>
+                    <button type="submit">Check your Akan Name</button>
+                    <p id="display">your Akan Nickname is: </p>
+                </div>
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('maleForm').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <div id="femaleForm" class="female">
+        
+            <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('femaleForm').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <img src="images/femaleAvatar.png" alt="Avatar" class="avatar">
+                </div>
+        
+                <div class="container">
+                    <label for="BirthDayDate"><b>Enter your BirthDay date</b></label>
+                    <input type="date" placeholder="" name="bDAte" required>
+                    <button type="submit">Check your Akan name</button>
+                    <p id="display">your Akan Nickname is: </p>
+                </div>
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('femaleForm').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <script>
+            var male = document.getElementById('maleForm');
+            var female = document.getElementById('femaleForm');
+
+            window.onclick = function (event) {
+                if ((event.target == male) && (event.target == female)) {
+                    male.style.display = "none";
+                }
+            }
+        </script>
+
+</html>
