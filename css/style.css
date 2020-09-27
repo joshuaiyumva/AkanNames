@@ -81,8 +81,7 @@ button {
      font-weight: bold;
  }
 
- .close:hover,
- .close:focus {
+ .close:hover {
      color: red;
      cursor: pointer;
  }
