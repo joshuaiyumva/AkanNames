@@ -1,8 +1,7 @@
 # ONLINE BIRTHDAY GENERATOR
-##
-#### This is an online web application that takes a user's birthday and calculates the day of the week they were born.
-##
+
 #### By IYUMVA Josue.
+#### E-mail: joshuaiyumva@gmail.com
 ##
 ## Description
 #### This is an online web application that allows the user to input his/her birthday date and Gender, and the application calculates which day of the week they were born in, and then depending on their gender(whether male or female) outputs their Akan Name. 
@@ -28,21 +27,23 @@
 #### Saturday: Ama
 
 ## Setup Requirements
-#### In order to view all the information described  above all you will need is:
-#### .A functional webBrowser that support HTML(hyperText Markup Language: this is the programming language I used to setup the website), and CSS(Cascading Style Sheet: this is a styling method used to give good and stylish design to the codes written in HTML), and JavaScript: which define the behavior of the application.
+#### In order to view all the information described above; all you will need is:
+#### .A functional webBrowser that support HTML(hyperText Markup Language: this is the programming language I used to setup web based application and websites), and CSS(Cascading Style Sheet: this is a styling method used to give good and stylish design to the codes written in HTML), and JavaScript: (which define the behavior of the contents in an application).
+
+## Behaviour Driven Development
 
 ## Bug Report...
-#### No bugs reported 
+#### the Akan name generator javaScript functions are not working well.
 
 ## Technology used...
 #### The technology used for the creation and completion of the website are the following:
 #### . A text Editor(Visual Studio Code), if you want to know more information on text editors please visit:https://www.computerhope.com/jargon/e/editor.htm
 #### . Language used: HTML(hyperText Markup Language), CSS (Cascading Style Sheet), and JavaScript.
 
-## Suppoort and contact...
+## Support and contact...
 #### you can send your feedbacks, or If after viewing the application you are not satisfied with what you saw, for example: you have trouble finding your Akan name, or my design is not well done and needs some renovating
 #### or maybe the colors don't match, or maybe the application is not doing what it was intended to do.
-#### Write me to the following e-mail: joshuaiyumva@gmail.com
+#### Write me via e-mail.
 ####
 #### Hope you Like it... https://github.com/joshuaiyumva/moringa
 
