@@ -1,4 +1,4 @@
-# ONLINE BIRTHDAY GENERATOR
+# ONLINE AKAN NAME GENERATOR
 
 #### By IYUMVA Josue.
 #### E-mail: joshuaiyumva@gmail.com
