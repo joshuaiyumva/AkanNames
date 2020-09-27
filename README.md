@@ -44,7 +44,8 @@
 #### or maybe the colors don't match, or maybe the application is not doing what it was intended to do.
 #### Write me via e-mail.
 ####
-#### Hope you Like it... https://github.com/joshuaiyumva/moringa
+#### To view the application click here: 
+#### Want to find the source codes? Visit https://github.com/joshuaiyumva/AkanNames/tree/gh-pages
 
 ## License...
 
