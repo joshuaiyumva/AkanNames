@@ -44,7 +44,7 @@
 #### or maybe the colors don't match, or maybe the application is not doing what it was intended to do.
 #### Write me via e-mail.
 ####
-#### To view the application click here: 
+#### To view the application click here: https://joshuaiyumva.github.io/AkanNames/
 #### Want to find the source codes? Visit https://github.com/joshuaiyumva/AkanNames/tree/gh-pages
 
 ## License...
