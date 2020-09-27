@@ -61,6 +61,9 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  background-image: url(../images/cake4.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -266,6 +269,8 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 button:not(:disabled),
