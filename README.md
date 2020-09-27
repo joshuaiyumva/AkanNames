@@ -30,8 +30,6 @@
 #### In order to view all the information described above; all you will need is:
 #### .A functional webBrowser that support HTML(hyperText Markup Language: this is the programming language I used to setup web based application and websites), and CSS(Cascading Style Sheet: this is a styling method used to give good and stylish design to the codes written in HTML), and JavaScript: (which define the behavior of the contents in an application).
 
-## Behaviour Driven Development
-
 ## Bug Report...
 #### the Akan name generator javaScript functions are not working well.
 

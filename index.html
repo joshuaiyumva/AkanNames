@@ -6,20 +6,19 @@
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
         <script type="text/javaScript" src="js/scripts.js"></script>
     </head>
-    <body>
+        <body>
             <div class="main" name="mainPage" style="color: #fff;">
             <p>
             <h2><strong>Akan Name Generetor</strong></h2>
             Here below you are requested to enter your birth Date and Gender<br>
-            Then the application will generate your Akan name accordingly...</p></div>
-         <!-- <fieldset id="contain">-->
-            <button type="submit" value="Male" id="maleBtn" name="genderBtn" onclick="document.getElementById('maleForm').style.display='block'" style="width:auto;">
+            Then the application will generate your Akan name accordingly...</p>
+            </div>
+            <button type="submit" value="Male" id="maleBtn" name="genderMale" onclick="document.getElementById('maleForm').style.display='block'" style="width:auto;">
             Male</button>
-            <button type="submit" value="Female" id="femaleBtn" name="genderBtn" onclick="document.getElementById('femaleForm').style.display='block'" style="width:auto;">
+            <button type="submit" value="Female" id="femaleBtn" name="genderFemale" onclick="document.getElementById('femaleForm').style.display='block'" style="width:auto;">
             Female</button>
-           <!-- </fieldset> -->
             <div id="maleForm" class="male">
-            <form class="modal-content animate" method="post">
+            <form class="modal-content animate">
                 <div class="imgcontainer">
                     <span onclick="document.getElementById('maleForm').style.display='none'" class="close"
                         title="Close">&times;</span>
@@ -27,8 +26,10 @@
                 </div>
                 <div class="container">
                     <label for="BirthdayDate"><b>Enter your Birthday Date</b></label>
-                    <input type="date" id="bDate" name="bDate" required>
-                    <button type="submit" onclick="is_date()">Check your Akan Name</button>
+                    <input type="date" id="bDate" name="bDate" value="" required>
+                    <button type="submit" onclick="is_date().style.display='block'">
+                        Check your Akan Name
+                    </button>
                     <p> your Akan Nickname is: <label id="isAkan"></label></p>
                 </div>
                 <div class="container" style="background-color:#f1f1f1">
@@ -38,18 +39,18 @@
             </form>
         </div>
         <div id="femaleForm" class="female">
-        
-            <form class="modal-content animate" method="post">
+            <form class="modal-content animate">
                 <div class="imgcontainer">
                     <span onclick="document.getElementById('femaleForm').style.display='none'" class="close"
                         title="Close">&times;</span>
                     <img src="images/femaleAvatar.png" alt="Avatar" class="avatar">
                 </div>
-        
                 <div class="container">
                     <label for="BirthdayDate"><b>Enter your Birthday date</b></label>
-                    <input type="date" id="bDate" name="bDate" required>
-                    <button type="submit" onclick="is_date()">Check your Akan name</button><br>
+                    <input type="date" id="bDate" name="bDate" value=""required>
+                    <button type="submit" onclick="is_date()">
+                        Check your Akan name
+                    </button><br>
                     <p>your Akan Nickname is: <label id="isAkan"></label></p>
                 </div>
                 <div class="container" style="background-color:#f1f1f1">
